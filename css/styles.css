@@ -1,3 +1,106 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
 * {
     box-sizing: border-box;
 }
+
+body {
+  font-family: 'Nanum Gothic', Arial, sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  background: rgb(245, 245, 245);
+  color: rgb(99, 105, 110);
+}
+
+main {
+  background: #fff;
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-weight: 400;
+  color: rgb(58, 67, 75);
+}
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name,
+.main-nav li,
+.main-nav a,
+.section-head,
+.footer-nav,
+.footer-nav a {
+  display: block;
+  color: rgb(58, 67, 75);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.main-nav a {
+  text-align: center;
+  background: white;
+  margin: 0 auto;
+  width: 95%;
+  margin-bottom: 5px;
+  padding: 10px 0;
+}
+
+.main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-nav {
+  width: 95%;
+  margin: 80px auto 0;
+  border-top: .5px solid rgb(231, 230, 230);
+}
+
+.footer-name {
+  display: inline-block;
+  float: left;
+}
+
+footer p {
+  margin: 30px 0;
+}
+
+.back-to-top {
+  display: inline-block;
+  float: right;
+  font-size: .8em;
+}
+
+/* ---- Layout Containers ---- */
+
+.container {
+    text-align: center;
+    width: 90%;
+    margin: 40px auto;
+}
+
+/* ---- Page Elements ---- */
+
+.card img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.section-head {
+  padding: 30px 0 0;
+  margin: 0;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
