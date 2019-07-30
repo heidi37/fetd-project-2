@@ -8,22 +8,24 @@
 
 body {
   font-family: 'Nanum Gothic', Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1.6;
   text-align: center;
   background: rgb(245, 245, 245);
   color: rgb(99, 105, 110);
+  font-size: .9em;
 }
 
 main {
   background: #fff;
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   padding-bottom: 30px;
 }
 
 h3 {
   font-weight: 400;
-  color: rgb(58, 67, 75);
+  color: rgb(34, 39, 44);
+  font-size: 1.2em;
 }
 
 
@@ -64,6 +66,7 @@ h3 {
   width: 95%;
   margin: 80px auto 0;
   border-top: .5px solid rgb(231, 230, 230);
+  padding: 0 5px;
 }
 
 .footer-name {
@@ -85,11 +88,16 @@ footer p {
 
 .container {
     text-align: center;
-    width: 90%;
+    width: 85%;
     margin: 40px auto;
 }
 
 /* ---- Page Elements ---- */
+
+.profile-image {
+  width: 90%;
+  margin: 5px 0;
+}
 
 .card img {
   width: 100%;
@@ -97,8 +105,14 @@ footer p {
 }
 
 .section-head {
-  padding: 30px 0 0;
+  padding: 60px 0 20px;
   margin: 0;
+  font-size: .9em;
+}
+
+.footer-bold {
+  font-weight: 800;
+  color: rgb(121, 129, 136);
 }
 
 /* ================================= 
