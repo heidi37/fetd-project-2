@@ -54,6 +54,7 @@ h3 {
   width: 95%;
   margin-bottom: 5px;
   padding: 10px 0;
+  font-size: .8em;
 }
 
 .main-nav ul {
@@ -84,6 +85,10 @@ footer p {
   font-size: .8em;
 }
 
+.bottom-nav-links {
+  display: none;
+}
+
 /* ---- Layout Containers ---- */
 
 .container {
@@ -107,7 +112,7 @@ footer p {
 .section-head {
   padding: 60px 0 20px;
   margin: 0;
-  font-size: .9em;
+  font-size: .8em;
 }
 
 .footer-bold {
@@ -118,3 +123,88 @@ footer p {
 /* ================================= 
   Media Queries
 ==================================== */
+
+@media (min-width: 768px) {
+.main-nav li,
+.main-nav a,
+.footer-nav {
+  display: inline-block;
+}
+
+.main-nav a {
+  text-align: center;
+  margin: 0 auto;
+  width: 95%;
+  margin-bottom: 5px;
+  padding: 10px 30px;
+  background: transparent;
+}
+
+.profile-image {
+  float: right;
+  width: 35%;
+}
+  
+.intro p {
+  text-align: left;
+  font-size: 1.25em;
+}
+
+.container {
+  width: 95%;
+}
+
+.card {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 1em;
+}
+
+.card p {
+  width: 75%;
+  display: inline-block;
+  margin-top: 0;
+}
+
+main {
+  clear: both;
+}
+
+#contact {
+  font-size: 1.25em;
+  width: 80%;
+  display: inline-block;
+}
+
+.back-to-top {
+  display: none;
+}
+
+.bottom-nav-links
+ {
+  display: inline-block;
+  float: right;
+}
+
+.bottom-nav-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-nav-links li {
+  display: inline-block;
+  padding-left: 25px;
+  font-size: .8em;
+}
+
+.footer-name p {
+  margin:0;
+}
+
+.footer-nav {
+  padding: 25px 0;
+}
+
+}
