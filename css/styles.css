@@ -130,6 +130,12 @@ footer p {
   color: rgb(121, 129, 136);
 }
 
+#skills {
+  background: rgb(245, 245, 245);
+  margin-top: 40px;
+  padding: 20px 0;
+}
+
 /* ================================= 
   Media Queries
 ==================================== */
@@ -201,8 +207,8 @@ footer p {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 250px;
-  }
+    width: 310px;
+    }
 
   .bottom-nav-links li {
     display: inline-block;
