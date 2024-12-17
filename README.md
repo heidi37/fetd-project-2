@@ -26,7 +26,7 @@ I completed the Front End Web Development Tech Degree in 2019. [View my Certific
 
 I learned how to output the scrolling gif for the this README using a command-line tool: [ffmpgeg](https://ffmpeg.org/). The one you see above is my first gif geneated this way. I would like to get a little smoother with my scrolling.
 
-<img src="https://img.shields.io/badge/ffmpeg-green?style=flat-square&logo=ffmpeg" alt="CSS3 badge" height="50">
+<img src="https://img.shields.io/badge/ffmpeg-007808?style=flat-square&logo=ffmpeg" alt="ffmpeg badge" height="50">
 
 ## Related Projects
 This repo was a portfolio page building exercise for a class at the beginning of my developer journey.
